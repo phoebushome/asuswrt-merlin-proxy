@@ -12,6 +12,7 @@ git clone https://github.com/RMerl/asuswrt-merlin.git
 源码包有些大，下载需要等一段时间！下载完成后在/work/asuswrt-merlin/release目录下，就能找到
 src-rt-6.x.4708和src-rt-6.x这两个目录，前者对应的是ARM架构的路由器，如RT-AC56U, RT-AC68U,
 RT-AC87U等机器，后者对应的是MIPSEL架构的路由器，如RT-AC66U。<br>
+注:华硕的RT-AC66U、RT-N66U为MIPS架构的Soc（BCM4706);华硕的RT-AC68U就是ARM平台的，Soc是BCM4708<br>
 本文以MIPSEL下的交叉编译为例，进行Redsock2 的编译
 #参考资料，感觉各位大大的支持<br>
 1、[Asuswrt-Merlin(ARM)交叉编译环境的搭建](https://ddcc.it/archives/144)<br>
